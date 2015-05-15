@@ -1,6 +1,4 @@
 
-/* tutorial */
-
 input, textarea { 
 	padding: 9px;
 	margin: 5px;
@@ -19,8 +17,9 @@ input, textarea {
 textarea { 
 	width: 400px;
 	max-width: 400px;
-	max-height: 400px;
+	height: 100px;
 	line-height: 150%;
+	resize: none;
 	}
 
 input:hover, textarea:hover,
@@ -29,7 +28,7 @@ input:focus, textarea:focus {
 	-webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
 	}
 
-.form label { 
+form label { 
 	margin-left: 10px; 
 	color: #999999; 
 	}

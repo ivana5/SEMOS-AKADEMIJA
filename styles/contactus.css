@@ -15,7 +15,7 @@
 	width: 50%;
 	float:left; 
 	padding: 20px;
-	margin:auto;
+	margin-left:60px;
 }
 
 .contact-right {
@@ -23,6 +23,7 @@
 	float:right;
 	width: 35%;
 	padding: 20px;
+	margin-right: 30px;
 }
 
 .row {
@@ -40,4 +41,19 @@
 	text-decoration: none;
 	float:left;
 	list-style: none;
+}
+
+.info h3 {
+
+	color:#0076bc;
+	line-height: 30px;
+}
+
+.info span {
+
+	color: #a0a0a0;
+}
+
+.info i {
+	padding: 5px;
 }

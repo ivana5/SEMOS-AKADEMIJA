@@ -46,10 +46,10 @@
 	position: center;
 	margin-left: 25%;
 	padding-bottom: 5px;
-	border-radius: 20px;
-		-webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+	/*border-radius: 20px;*/
+		/*-webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 		clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-		transition: all ease-in-out .3s;
+		transition: all ease-in-out .3s;*/
 		/*margin-left: 10%;*/
 		position: relative;
 				}
@@ -95,4 +95,54 @@
 .myButton:active {
 	position:relative;
 	top:1px;
+}
+
+/*.images {
+
+	height: 150px;
+	width: 160px;
+	display: block;
+	position: relative;
+}
+#ardi{
+	width: inherit;
+	height: inherit;
+	position: absolute;
+}*/
+
+.ivana {
+	width: 170px;
+	height: 150px;
+	background-image: url(../images/ivana.png);
+	background-repeat: no-repeat;
+	margin-left: 50px;
+}
+
+.ardi {
+	width: 170px;
+	height: 150px;
+	background-image: url(../images/ardi.png);
+	background-repeat: no-repeat;
+	margin-left: 50px;
+}
+.marko {
+	width: 170px;
+	height: 150px;
+	background-image: url(../images/marko.png);
+	background-repeat: no-repeat;
+	margin-left: 50px;
+}
+.ilmi {
+	width: 170px;
+	height: 150px;
+	background-image: url(../images/ilmi.png);
+	background-repeat: no-repeat;
+	margin-left: 50px;
+}
+.dragi {
+	width: 170px;
+	height: 150px;
+	background-image: url(../images/dragi.png);
+	background-repeat: no-repeat;
+	margin-left: 50px;
 }

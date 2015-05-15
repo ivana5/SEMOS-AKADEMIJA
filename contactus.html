@@ -58,7 +58,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
  <div class="contact-form"> 
     <div class="contact-left"> 
 
-        <form class="form">
+        <form action="form_process.php" method="post">
 
 			<p class="name">
 				<input type="text" name="name" id="name" />
@@ -71,12 +71,12 @@ google.maps.event.addDomListener(window, 'load', initialize);
 			</p>
 
 			<p class="Tel/Mobile">
-				<input type="text" name="Tel/Mobile" id="		Tel/Mobile" />
+				<input type="text" name="Tel/Mobile" id="phone" />
 				<label for="Tel/Mobile">Тел/Мобилен</label>
 			</p>
 			<p class="subject">
-				<input type="text" name="subject" id="subject" />
-				<label for="subject">Субјект</label>
+				<input type="text" name="message" id="message" />
+				<label for="message">Субјект</label>
 			</p>
 
 			<p class="text">
@@ -87,25 +87,35 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 		</form>
 
+
+
 	</div>
         	<div class="contact-right"> 
         		<div class="info">
-        			<ul> 
-        				<li> Работно Време:</li>
-        				<li> Понеделник - Петок 09:00 - 22:00 </li>
-        				<li> Сабота: 09:00 - 17:00 </li>
-        				<li> Телефон:</li>
-        				<li> +389 2 3130-900 </li>
-        				<li> Маил:</li>
-        				<li>kursevi@semos.com.mk</li>
-        				<li> Адреса: </li>
-        				<li>бул. Кузман Јосифовски Питу бр.19 локал 6, 1000 Скопје</li>
-        			</ul>
-        		</div>
-        	</div>	
+       <ul>
+			<li>
+				<h3><i class="fa fa-clock-o"></i>Работно Време:</h3>
+				<span>Понеделник - Петок 09:00 - 22:00 </span><br>
+				<span>Сабота: 09:00 - 17:00 </span>
+			</li>
 
+			<li>
+				<h3><i class="fa fa-phone"></i>Телефон:</h3>
+				<span>+389 2 3130-900 </span>
+			</li>
 
-</div>
+			<li>
+				<h3><i class="fa fa-envelope"></i>Маил:</h3>
+				<span>kursevi@semos.com.mk</span>
+			</li>
 
+			<li>
+				<h3><i class="fa fa-map-marker"></i>Адреса:</h3>
+				<span>бул. Кузман Јосифовски Питу бр.19 локал 6, 1000 Скопје</span>
+			</li>
+		</ul>
+        	
+        	</div>
+   </div>	
 		</body>	
 </html>
