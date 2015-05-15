@@ -5,6 +5,7 @@
 		<title>Contact Us</title>
 		<link rel="stylesheet" href="styles/generacija 2014_2015.css"/>
 		<link rel="stylesheet" href="styles/contactus.css"/>
+		<link rel="stylesheet" href="styles/contact.css"/>
 		<link rel="stylesheet" href="styles/generacija-web.css"/>
 		<link href="styles/font-awesome.css" rel="stylesheet">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -22,7 +23,7 @@ function initialize() {
   var marker = new google.maps.Marker({
       position: myLatlng,
       map: map,
-      title: 'Hello World!'
+      title: ''
   });
 }
 
@@ -52,6 +53,59 @@ google.maps.event.addDomListener(window, 'load', initialize);
 		        	<li><a href=""><i class="fa fa-google-plus"></i></a></li>
 		        	<li><a href="https://www.linkedin.com/company/5043975?trk=tyah&trkInfo=idx%3A2-2-7%2CtarId%3A1425856564481%2Ctas%3Asemos+" target="_BLANK"><i class="fa fa-linkedin"></i></a></li>
 		        </ul>
+        	</div>
+
+ <div class="contact-form"> 
+    <div class="contact-left"> 
+
+        <form class="form">
+
+			<p class="name">
+				<input type="text" name="name" id="name" />
+				<label for="name">Име</label>
+			</p>
+
+			<p class="email">
+				<input type="text" name="email" id="email" />
+				<label for="email">Е-маил</label>
+			</p>
+
+			<p class="Tel/Mobile">
+				<input type="text" name="Tel/Mobile" id="		Tel/Mobile" />
+				<label for="Tel/Mobile">Тел/Мобилен</label>
+			</p>
+			<p class="subject">
+				<input type="text" name="subject" id="subject" />
+				<label for="subject">Субјект</label>
+			</p>
+
+			<p class="text">
+				<textarea name="text"></textarea>
+			</p>
+
+			<button type="submit">Испрати</button>
+
+		</form>
+
+	</div>
+        	<div class="contact-right"> 
+        		<div class="info">
+        			<ul> 
+        				<li> Работно Време:</li>
+        				<li> Понеделник - Петок 09:00 - 22:00 </li>
+        				<li> Сабота: 09:00 - 17:00 </li>
+        				<li> Телефон:</li>
+        				<li> +389 2 3130-900 </li>
+        				<li> Маил:</li>
+        				<li>kursevi@semos.com.mk</li>
+        				<li> Адреса: </li>
+        				<li>бул. Кузман Јосифовски Питу бр.19 локал 6, 1000 Скопје</li>
+        			</ul>
+        		</div>
         	</div>	
+
+
+</div>
+
 		</body>	
 </html>
