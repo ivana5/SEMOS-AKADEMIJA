@@ -10,7 +10,8 @@ a{
 #nav-logo{
 	padding: 8px;
 	-webkit-filter: grayscale(1);
-	margin-left: 4%;
+	margin-left: 3%;
+	margin-top: 8px;
 	opacity: .6;
 	-webkit-transition: all ease-in-out .2s;
 }
